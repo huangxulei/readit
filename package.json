@@ -1,0 +1,22 @@
+{
+  "name": "readit",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "nodemon --exec electron . --watch ./ --exe .js,.html,.css,.vue"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "electron": "^22.0.0",
+    "electron-win-state": "^1.1.22",
+    "nodemon": "^2.0.20",
+    "vite": "^4.0.0"
+  }
+}
